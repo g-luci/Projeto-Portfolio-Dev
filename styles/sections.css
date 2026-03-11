@@ -107,7 +107,12 @@
                 padding-inline: 13px;
                 gap: 8px;
             }
+
+            &:hover{
+                border: 1.5px solid var(--gray-300)
+            }
         }
+        
     }
 }
 
