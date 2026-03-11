@@ -37,3 +37,25 @@ body {
 h1 {
     font: var(--title-lg);
 }
+
+h2{
+    font: var(--title-md);
+}
+
+h3{
+    font: var(--subtitle);
+}
+
+h4{
+    font: var(--title-sm);
+}
+
+h1, h2, h4 {
+    color: var(--gray-100);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
