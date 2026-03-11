@@ -25,3 +25,7 @@
 .green-filter{
     filter: invert(33%) sepia(45%) saturate(491%) hue-rotate(49deg) brightness(102%) contrast(90%);
 }
+
+.text-md{
+    font: var(--text-md)
+}
