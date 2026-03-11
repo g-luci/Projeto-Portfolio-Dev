@@ -2,6 +2,10 @@
     color: var(--red)
 }
 
+.purple{
+    color: var(--purple);
+}
+
 .gray-300{
     color: var(--gray-300)
 }
