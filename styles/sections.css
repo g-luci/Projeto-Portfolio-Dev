@@ -79,6 +79,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            border: 1.5px solid transparent;
             width: 330px;
             height: 280px;
             background-color: var(--gray-400);
@@ -101,7 +102,7 @@
             }
 
             &:hover{
-                border: 1.5px solid var(--gray-300)
+                border-color: var(--gray-300)
             }
         }
         
@@ -171,6 +172,7 @@
         li {
             display: flex;
             align-items: center;
+            border: 1.5px solid transparent;
             gap: 12px;
             background-color: var(--gray-400);
             width: 400px;
@@ -191,7 +193,7 @@
         }
 
         li:hover{
-            border: 1.5px solid var(--blue);
+            border-color: var(--blue);
         }
     }
 }
